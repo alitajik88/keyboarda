@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@font-face{
+  font-family: 'nazanin';
+  src: url('../fonts/B-NAZANIN.TTF');
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+body{
+  direction: rtl;
+  font-family: 'Style Script', cursive;
+}
+a{
+  text-decoration: none;
+}
+
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 25px;
+}
+
+/* keyboarda team section */
+.keyboarda-team-section .content{
+  display: flex;
+  align-items: center;
+}
+
+.keyboarda-team-section .content .text_info{
+  flex: 50%;
+}
+
+.keyboarda-team-section .content .text_info .title{
+   font-size: 30px;
+   color: #111;
+   margin-bottom: 20px;
+}
+.keyboarda-team-section .content .text_info .text{
+  font-size: 20px;
+  color: #111;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.keyboarda-team-section .content .text_info .know_more{
+  font-size: 19px;
+  display: inline-block;
+  background-color: cornflowerblue;
+  color: #fff;
+  margin-bottom: 15px;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+
+.keyboarda-team-section .content .keyboarda-team-image{
+  flex: 50%;
+}
+
+.keyboarda-team-section .content .keyboarda-team-image img{
+  width: 100%;
+ }
+
+
+
+ @media (max-width:768px){
+
+  .keyboarda-team-section .content{
+    flex-direction: column;
+  }
+  
+ }
+
+ @media (max-width:375px){
+  .keyboarda-team-section .content .text_info .title{
+    font-size: 25px;
+  }
+  
+ }
